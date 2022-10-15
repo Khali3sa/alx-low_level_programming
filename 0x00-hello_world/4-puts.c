@@ -1,2 +1,2 @@
 # !/bin/bash
-gcc puts("Programming is like building a multilingual puzzle\n");
+gcc -c puts("Programming is like building a multilingual puzzle\n");
