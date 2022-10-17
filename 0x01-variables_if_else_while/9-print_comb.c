@@ -15,7 +15,7 @@ int main(void)
 		{
 			putchar(',');
 
-			putchar('a space');
+			putchar('space');
 		}
 	}
 	putchar('\n');
