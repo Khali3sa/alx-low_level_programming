@@ -1,10 +1,15 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
 /**
- *main - Determines either greater than 5, is less than 6, or is 0
  *
- *Return: Always 0(Success)
+ *main - print if the number is postive, zero, or negative
+ *
+ *Description: using the main function
+ *
+ *this program prints "programming is positive, zero, or negative
+ *
+ *Return: 0
  */
 int main(void)
 {
@@ -20,13 +25,13 @@ int main(void)
 
 							/* the code is down*/
 
-							if (l > 5)
+							if(l > 5)
 
 																			printf("Last digit of %d is %d and is greater than 5\n", n, l);
 
 							}
 
-							else if (l == 0)
+							else if(l == 0)
 
 							{
 
