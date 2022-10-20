@@ -1,11 +1,14 @@
 #include "main.h"
+
 /**
  * main - Entry point
  *
  * @i: argument representing value
- * positive_or_negative: checks for any positive  of negative number
+ *
+ * positive_or_negative: checks for any positive of negative number
  * Return: Always 0 (Success)
  */
+
 void positive_or_negative(int i)
 {
 	/* my if statement */
