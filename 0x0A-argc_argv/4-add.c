@@ -18,12 +18,16 @@ int check_num(char *str)
 	{
 		while (count < strlen(str)) /*count string*/
 		{
-			return (0);
+			if (!isdigit(str[count])) /*check if str there are digit*/
+			{
+				return (0);
+			}
 		}
 		count++;
 	}
 	return (1);
 }
+
 /**
  * main - Print the name of the program
  * @argc: Count arguments
