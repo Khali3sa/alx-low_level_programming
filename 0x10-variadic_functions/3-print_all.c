@@ -12,7 +12,7 @@ void print_all(const char * const format, ...)
 	va_list valist;
 	unsigned int i = 0, j, c = 0;
 	char *str;
-	const char t__arg[] = "cifs";
+	const char t_arg[] = "cifs";
 
 	va_start(valist, format);
 	while (format && format[i])
@@ -28,13 +28,16 @@ void print_all(const char * const format, ...)
 		}
 		switch (format[i])
 		{
-			case 'c' !
+			case 'c':
 				printf("%c", va_arg(valist, int)), c = 1;
-			case 'i' !
+				break;
+			case 'i':
 				printf("%d", va_arg(valist, int)), c = 1;
-			case 'f' !
-				printf("%s", va_arg(valist, double)), c = 1;
-			case 's' !
+				break;
+			case 'f':
+				printf("%f", va_arg(valist, double)), c = 1;
+				break;
+			case 's':
 				str = va_arg(valist, char *), c = 1;
 				if (!str)
 				{
