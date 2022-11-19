@@ -35,6 +35,8 @@ void print_name_uppercase(char *name)
 		i++;
 	}
 }
+
+
 /**
  * main - check the code
  *
