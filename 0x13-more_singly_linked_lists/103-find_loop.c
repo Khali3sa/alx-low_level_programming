@@ -31,7 +31,7 @@ listint_t *find_listint_loop(listint_t *head)
 				if (p2->next == head)
 					break;
 
-				head = head->next
+				head = head->next;
 			}
 			return (p2->next);
 		}
